@@ -1,0 +1,8 @@
+<script>
+var list = [{"id":"1","type":"External"},
+{"id":"2",},
+{"id":"3","type":"Internal"},{"id":"3","type":"External"},
+]
+var result = list.filter((x)=>x.type === "External");
+document.write(result);
+</script>
